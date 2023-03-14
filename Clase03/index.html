@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h2>INPUTS</h2>
+    <table border="1">
+        <tr><td>Input text</td><td><input type="text"></td></tr>
+        <tr><td>Input password</td><td><input type="password"></td></tr>
+        <tr><td>Input Fecha</td><td><input type="date"></td></tr>
+    </table>
+    <br><br><br>
+
+    <fieldset>
+        <legend>Datos personales</legend>
+        <form action="">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" class="nombre" required placeholder="Nombre">
+        <br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required placeholder="Apellido">
+        <br><br>
+        <label for="fnac">Fecha de nacimiento:</label>
+        <input type="datetime-local" id="fnac" name="fnac" required>
+        <br><br>
+        <label for="edad">Edad</label>
+        <input type="text" id="edad" class="edad" readonly value="38" placeholder="edad">
+        <br><br>
+        <label for="colegio">Colegio:</label>
+        <input type="text" id="colegio" name="colegio" required placeholder="Colegio" disabled>
+        <br><br>
+        <label for="altura">altura</label>
+        <input type="number" id="altura" class="altura" max="250" placeholder="altura">
+        <br><br>
+        <label for="ecalles">Entre calles</label>
+        <input type="text" id="calle" class="calle" maxlength="15" minlength="5">
+        <br><br>
+        <label for="pass">Apellido:</label>
+        <input type="password" id="calle" name="pass" required pattern="">
+        <br><br>
+        <label for="">Direccion</label>
+        <textarea placeholder="Direccion" form="direccion"></textarea>
+        <br><br>
+        <label for="color">Color</label>
+        <input type="color">
+        <br><br>
+        <label for="archivo">Archivo</label>
+        <input type="file" name="archivo" id="archivo">
+        <br><br>
+        <label for="">Lenguaje</label>
+        <select>
+            <option value="1">Java</option>
+            <option value="2">PHP</option>
+            <option value="3">JavaScript</option>
+        </select>
+        <button type="submit">Ingresar</button>
+    </form>
+    </fieldset>
+</body>
+</html>
