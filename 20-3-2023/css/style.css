@@ -1,0 +1,18 @@
+body{
+    background-color: honeydew;
+}
+
+p{
+    background-color: whitesmoke;
+    color: steelblue;
+    font-size: 20px;
+}
+/*Selector ID con un " # "*/
+
+#parrafo{
+    color: rgb(98, 87, 38);
+}
+/*Selector de clase " . "*/
+.textos{
+color: darkred;
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(215, 193, 197);
+    background: url(/img/fondo.jfif);
+}
+
+/*!important ES EL QUE TIENE MAS JERARQUIA
+!IMPORTANT, selector en linea y en ultimo lugar relacionado*/
+h1{
+  color: cornflowerblue !important;
+}

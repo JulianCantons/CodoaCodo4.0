@@ -1,0 +1,52 @@
+body{
+
+    background-color: gainsboro;
+}
+div{
+    width: 70%;
+    background-color: cornflowerblue;
+    margin: auto;
+    margin-top: 20px;
+}
+/*
+#div1,#div2,#div3{
+text-align: center;
+}
+*/
+
+#div1{
+    height: 50px;
+    background-color: rgb(129, 196, 196);
+    text-align: center;
+    margin: auto;
+}
+#div2{
+    height: 150px;
+    background-color: rgb(241, 160, 241);
+}
+#div3{
+    height: 250px;
+    background-color: rgb(178, 237, 157);
+}
+input{
+    color: thistle;
+}
+fieldset{
+    width: 70%;
+
+}
+input[type=text]{
+    background-color: darkcyan;
+}
+input[type=password]{
+    background-color: darkred;
+}
+input[type=submit]{
+    border: none;
+    
+    background-color: rgb(219, 72, 72);
+    font-size: 18px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 10px slategrey;
+}
