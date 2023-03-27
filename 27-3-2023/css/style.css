@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    margin-top: 20px;
+    background-color: rgb(146, 199, 199);
+    width: 200px;
+    height: 200px;
+    
+}
+
+.caja2{
+    border: 10px solid rgb(169, 228, 169);
+    border-left: 10px solid thistle;
+    border-right: 12px snow;
+    border-top: 5px dashed slategray;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.caja3{
+    border: 10px dashed salmon;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.caja4{
+    border: 0px 0px 0px 10px dashed salmon;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+.caja5{
+    padding-left: 5px;
+    overflow: auto;
+    overflow: hidden;
+    overflow: visible;
+    overflow: scroll;
+}
+.menu{
+    background-color: plum;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.menu li{
+    display: inline;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aliceblue;
+}

@@ -1,0 +1,36 @@
+header{
+    width: 80%;
+    height: 140px;
+    background-color: papayawhip;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 5px 5px  rgb(60, 69, 77);
+}
+
+header h1 {
+    text-align: center;
+    color: steelblue;
+}
+main{
+width: 80%;
+margin: auto;
+height: 300px;
+}
+
+main section p ,h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 24px;
+}
+
+.textoresaltado{
+    font-size: 30px;
+    font-family: 'Signika', sans-serif;
+}
+
+footer{
+    width: 100%;
+    background-color: darkgrey;
+    color: whitesmoke;
+    margin: auto;
+    height: 60px;
+}
