@@ -1,0 +1,17 @@
+footer {
+    background-image: linear-gradient(to right, #1d3e4e, #1c658f);
+}
+footer ul {
+    text-align: center;
+    padding: 30px;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
