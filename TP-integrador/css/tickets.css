@@ -1,0 +1,211 @@
+#comprar-tickets a{
+    color: rgb(64, 183, 64);
+ }
+
+#tickets-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#tickets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#card-estudiante{
+    border: 2px solid #3498DB;
+    margin-right: 5px;
+}
+#card-trainee{
+    border: 2px solid #27AE60;
+    margin-right: 5px;
+}
+#card-junior{
+    border: 2px solid #F1C40F;
+}
+.card-ticket{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    font-size: 10px;
+    width: 220px;
+    height: 200px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.card-subtitle{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.card-presentation{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#venta{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#valor-ticket{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#ticket-h3{
+    font-size: 35px;
+}
+
+#inputs-finales{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nombre-apellido-ticket{
+    margin: 0 10px 0 0;
+}
+
+#input-correo{
+    left: 50px;
+    width: 50%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+}
+
+#cantidad-categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cantidad-categoria p:first-child {
+    margin-right: 50px;
+    font-size: 20px;
+  }
+
+#cantidad-categoria p:last-child {
+    margin-left: auto;
+    margin-right: 285;
+    font-size: 20px;
+}
+
+#select-categoria{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#cantidad-categoria{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+#total-pago{
+    width: 50%;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(182, 243, 243);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50;
+}
+/*
+#total-pago {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px
+}
+*/
+
+#btn-borrar-resumen{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-final{
+    background-color: #28B463;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 150px;
+    margin: 35px 3px 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+#cantidad-categoria {
+    display: flex;
+    align-items: center;
+  }
+
+#cant-categ{
+    text-align: center;
+    margin: 10px;
+    padding: 15px 195px;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+#cantidad {
+    padding-right: 50%;
+}
+
+
+#input-select{
+   text-align: center;
+   margin-top: 5px;
+}
+
+#inputCantidad {
+    margin-right: 10px;
+}
+
+
+/*
+.input-select {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.cantidad{
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    width: 360px;
+}
+*/
