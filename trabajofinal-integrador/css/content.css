@@ -1,0 +1,169 @@
+#body {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.carousel-caption{
+    text-align: right;
+    margin-right: -100px;
+    margin-top: -20px;
+    padding-bottom: 12%;
+}
+
+.conf{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.parrafo-descripcion{
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+.botones{
+    padding-top: 30px;
+}
+.orador{
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1.7px solid white;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+.orador:hover{
+    background-color: rgb(201, 202, 202);
+}
+.comprar{
+    border-radius: 5px;
+    background-color: rgb(71, 191, 71);
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.bloque-card{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    margin-right: 20px;
+}
+
+#img-playa{
+    width: 100%;
+    height: 100%;
+}
+
+.block-playa{
+    display: flex;
+}
+
+.block{
+    background-color: #3c4044;
+    width: 100%;
+    border-left: 1px solid !important;
+}
+#block-texto{
+    padding: 11px 13px;
+}
+
+.titulo-oradores{
+    text-align: center;
+    padding: 15px;
+}
+
+.titulo-orador{
+    font-size: 35px;
+}
+
+#oradores-presentacion{
+    font-size: 35px;
+}
+.card-title{
+    font-size: 20px;
+}
+
+.localidad-mes {
+    font-size: 25px;
+    color: white;
+    padding: 7px;
+}
+
+.ultimo-parrafo {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.boton-conoce {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#conviertete-orador{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ultimo-h5{
+    text-align: center;
+    text-decoration: dotted;
+}
+#ultimo-h5 span {
+    Text-decoration: underline dotted black;
+}
+
+#parte-final{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#ultimo-textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#enviar-final{
+    border-radius: 5px;
+    border: none;
+    background-color: #5cb441;
+    color: white;
+    width: 700px;
+    height: 45px;
+}
+
+textarea{
+    width: 700px;
+    padding: 7px;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 4px;
+}
+input, select{
+    width: 340px;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 4px;
+    padding: 7px;
+}
+#inputs-form {
+    padding: 15px 0;
+}
+#nombre-final{
+    margin: 0 15px 0 0;
+}
+
+#paragraph-form {
+    text-align: center;
+    margin: 5px 444px 15px 0;
+    font-size: 14px;
+    color: #c3c3c3;
+}
